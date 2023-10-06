@@ -54,4 +54,4 @@ stages:
         namespace: '$(project-name-dev)'
         manifests: |
           $(Build.SourcesDirectory)/manifests/*.yaml
-        containers: 'image-registry.openshift-image-registry.svc:5000/$(project-name-dev)/$(image-name):$(Build.BuildId)'
+        containers: 'cr00cfaroregistry.azurecr.io/$(project-name-dev)/$(image-name):$(Build.BuildId)'
