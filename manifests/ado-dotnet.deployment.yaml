@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ado-dotnet
-          image: image-registry.openshift-image-registry.svc:5000/ado-openshift/ado-dotnet
+          image: cr00cfaroregistry.azurecr.io/ado-openshift/ado-dotnet
           ports:
             - containerPort: 8080
 
